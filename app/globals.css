@@ -127,6 +127,7 @@
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
   }
 }
+
 @layer utilities {
   .text-accent {
     color: var(--accent);
@@ -140,7 +141,13 @@
   .hover\:.border-accent:hover {
     color: var(--accent-hover);
   }
-
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+    transition: -webkit-text-stroke 0.3s ease;
+  }
+  .group:hover .text-outline {
+    -webkit-text-stroke: 1px #00ff99;
+  }
   @keyframes accordion-down {
     from {
       height: 0;
