@@ -20,9 +20,8 @@ export default function PageTransition({
             transition: { delay: 0.5, duration: 0.4, ease: "easeInOut" },
           }}
           className="h-screen w-screen fixed top-0 bg-primary pointer-events-none"
-        >
-          {children}
-        </motion.div>
+        ></motion.div>
+        {children}
       </div>
     </AnimatePresence>
   );

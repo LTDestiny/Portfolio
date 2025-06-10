@@ -23,7 +23,6 @@ export default function StairTransition() {
           ></motion.div>
         </div>
       </AnimatePresence>
-      ;
     </>
   );
 }

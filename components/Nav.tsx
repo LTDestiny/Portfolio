@@ -33,6 +33,7 @@ export default function Nav() {
   useEffect(() => {
     setMounted(true);
   }, []);
+
   return (
     <nav className="flex gap-8 justify-center items-center text-lg">
       {links.map((link, index) => {
