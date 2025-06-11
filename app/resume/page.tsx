@@ -26,7 +26,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "+84 328 983 2067",
+      fieldValue: "(+84) 38 983 2067",
     },
     {
       fieldName: "Nationality",
@@ -313,7 +313,7 @@ export default function Resume() {
                         className="flex items-center justify-center xl:justify-start gap-4"
                       >
                         <span className=" text-white/60">{item.fieldName}</span>
-                        <span className="text-xl">{item.fieldValue}</span>
+                        <span className="text-base">{item.fieldValue}</span>
                       </li>
                     );
                   })}

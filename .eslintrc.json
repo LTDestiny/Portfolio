@@ -1,0 +1,42 @@
+{
+    "extends":"next/core-web-vitals",
+    "rules":{
+        "react/no-unescaped-entities":"off",
+        "@typescript-eslint/quotes": ["error", "single", { "avoidEscape": true }],
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "react/jsx-key": "off",
+        "react/no-unknown-property": [
+            "error",
+            {
+                "ignore": ["css", "class"]
+            }
+        ],
+    }
+
+}{
+  "root": true,
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "react/jsx-key": "warn",
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": ["css", "class"]
+      }
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/quotes": ["error", "single", { "avoidEscape": true }],
+    "quotes": ["error", "single", { "avoidEscape": true }]
+  }
+}
