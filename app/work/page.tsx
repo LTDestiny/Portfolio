@@ -60,7 +60,7 @@ const projects = [
 
 export default function Work() {
   const [project, setProject] = useState(projects[0]);
-
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleSlideChange = (swiper: any) => {
     // get current slide index
     const currentIndex = swiper.activeIndex;

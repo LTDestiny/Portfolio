@@ -1,15 +1,8 @@
 "use client";
 
-import { icons } from "lucide-react";
-import { title } from "process";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 
-import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiMongodb,
-  SiExpress,
-} from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiMongodb } from "react-icons/si";
 
 const about = {
   title: "About Me",

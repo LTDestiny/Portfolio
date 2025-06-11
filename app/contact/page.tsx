@@ -54,7 +54,7 @@ export default function Contact() {
               action=""
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
               <p className="text-white/60">
                 If you have any questions or want to work together, please fill
                 out the form below.
