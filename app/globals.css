@@ -44,8 +44,8 @@
 }
 
 :root {
-  --accent: #00ff99;
-  --accent-hover: #00e187;
+  --accent: #4adede;
+  --accent-hover: #7bd5f5;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
@@ -53,7 +53,7 @@
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: #1c1c22;
+  --primary: #222227;
   --primary-foreground: oklch(0.984 0.003 247.858);
   --secondary: oklch(0.968 0.007 247.896);
   --secondary-foreground: oklch(0.208 0.042 265.755);
@@ -146,7 +146,7 @@
     transition: -webkit-text-stroke 0.3s ease;
   }
   .group:hover .text-outline {
-    -webkit-text-stroke: 1px #00ff99;
+    -webkit-text-stroke: 1px #4adede;
   }
   @keyframes accordion-down {
     from {

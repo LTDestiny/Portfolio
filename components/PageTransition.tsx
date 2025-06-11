@@ -19,7 +19,7 @@ export default function PageTransition({
             opacity: 0,
             transition: { delay: 0.5, duration: 0.4, ease: "easeInOut" },
           }}
-          className="h-screen w-screen fixed top-0 bg-primary pointer-events-none"
+          className="h-screen w-screen fixed top-0 bg-gradient-to-r from-cyan-400 to-purple-500 pointer-events-none"
         ></motion.div>
         {children}
       </div>

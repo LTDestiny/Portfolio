@@ -6,7 +6,7 @@ import MobileNav from "@/components/MobileNav";
 
 export default function Header() {
   return (
-    <header className="py-8 xl:py-8 text-white bg-gradient-to-l from-gray-700 to-gray-500 ">
+    <header className="py-8 xl:py-8 text-white bg-[#003153] ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href={"/"} className="flex items-center gap-2">

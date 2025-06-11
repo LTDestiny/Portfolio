@@ -1,23 +1,23 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const socials = [
   {
     icon: <FaGithub className="text-2xl" />,
-    path: "",
+    path: "https://github.com/LTDestiny",
   },
   {
-    icon: <FaLinkedinIn className="text-2xl" />,
-    path: "",
+    icon: <FaInstagram className="text-2xl" />,
+    path: "https://www.instagram.com/_thindinh_/?fbclid=IwY2xjawK198RleHRuA2FlbQIxMABicmlkETFxVlluOEdFZVRrVHI3S1N5AR7svHYP7-eec8D_pMevQmQErhyFkakgjmoNxluwg0iddd0X65YTf-23P2d2vw_aem_pVCwqLU5_RYEiERh5DizPA#",
   },
   {
-    icon: <FaYoutube className="text-2xl" />,
-    path: "",
+    icon: <FaFacebook className="text-2xl" />,
+    path: "https://www.facebook.com/TDISSB",
   },
   {
-    icon: <FaTwitter className="text-2xl" />,
-    path: "",
+    icon: <FaTiktok className="text-2xl" />,
+    path: "https://www.tiktok.com/@thinndinn",
   },
 ];
 
